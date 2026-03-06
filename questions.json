@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q1",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 1,
+    "page": 1,
+    "question_text": "Which is the main goal of HTTP:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Sharing files in p2p networks.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Email reading.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Videoconferencing.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Hypertext information transport.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP (HyperText Transfer Protocol) was designed specifically for transferring hypertext documents (HTML) and related resources across the web. P2P file sharing uses protocols like BitTorrent, email uses SMTP/IMAP, and videoconferencing uses RTP/WebRTC. [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q2",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 2,
+    "page": 1,
+    "question_text": "HTTP/1.2 is a text based protocol while HTTP/2 is a binary protocol:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": false
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/1.1 (the question says 1.2 which doesn't exist, but refers to the HTTP/1.x family) uses plain text for headers and framing. HTTP/2 introduced binary framing, which is more efficient to parse and less error-prone than text-based protocols. [Slides: HTTP/2 features](https://projecteweb-2026.github.io/session-2/18)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q3",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 3,
+    "page": 1,
+    "question_text": "HTTP/1.0 was designed to take the maximum possible advantage of the UDP connections between computers:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP has always used TCP, not UDP, as its transport protocol. HTTP/1.0 opens a new TCP connection per request, which is inefficient. HTTP/1.1 introduced persistent connections (keep-alive). Only HTTP/3 uses UDP, via the QUIC protocol. [Slides: HTTP/1.0 vs 1.1](https://projecteweb-2026.github.io/session-2/4)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q4",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 4,
+    "page": 1,
+    "question_text": "HTTP/2 adds user validation and digital signature to HTTP:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/2 focused purely on performance: binary framing, multiplexing, header compression (HPACK), and server push. It does not add user validation or digital signatures — those are handled by TLS/SSL and application-level authentication. [Slides: HTTP/2 key features](https://projecteweb-2026.github.io/session-2/19)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q5",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 5,
+    "page": 1,
+    "question_text": "The E-Tag header field on HTTP:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Adds a hash to the data to validate its integrity.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Adds tags for classifying data by topics.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Doesn’t exist.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Labels the different versions of a resource.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "ETag (Entity Tag) is a response header that provides a unique identifier for a specific version of a resource. The server generates an ETag for each version, and the client can use If-None-Match to validate its cache, enabling efficient conditional requests. [Slides: ETag](https://projecteweb-2026.github.io/session-2/15)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q6",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 6,
+    "page": 1,
+    "question_text": "What do we define on views.py in Django?",
+    "options": [
+      {
+        "label": "1",
+        "text": "The data models using python.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "The business logic code of the application, in the MVC model, the Controller.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "A user interface model for HTML templates.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "In Django's MVT (Model-View-Template) pattern, views.py contains the view functions/classes that handle HTTP requests and return responses. Despite the name \"View\", Django views act as the Controller in MVC — they contain the business logic and decide what data to fetch and which template to render. [Slides: Django views](https://projecteweb-2026.github.io/session-3/32)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q7",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 7,
+    "page": 1,
+    "question_text": "Last-Modified:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Is used to notify the latest HTTP release handled by the server.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Can have concurrency issues when modifying resources.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "Is the date of the last modification on github.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Is the user identifier of the user that last modified the resource.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Last-Modified has only second-level granularity. If a resource is modified multiple times within the same second, Last-Modified cannot distinguish between those versions. This creates concurrency issues for caching validation. ETag solves this by providing a unique identifier per version. [Slides: Last-Modified problem](https://projecteweb-2026.github.io/session-2/14)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q8",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 8,
+    "page": 1,
+    "question_text": "HTTP/3 uses P2P transport techniques to reduce used bandwidth:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/3 uses QUIC (built on UDP) to reduce latency and improve reliability, not P2P techniques. QUIC eliminates head-of-line blocking at the transport layer and provides faster connection establishment (0-RTT). P2P is a completely different networking paradigm. [Slides: HTTP/3](https://projecteweb-2026.github.io/session-2/29)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q9",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 9,
+    "page": 1,
+    "question_text": "Which of the following URLs is wrong:",
+    "options": [
+      {
+        "label": "1",
+        "text": "http://carlesm@password:www.udl.cat:32768/secret.php/test?files=none&do=%20",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "mailto:car@udl.cat,les@udl.cat?bcc=secret@udl.cat&subject=test%20t&body=un%20mail%0Aamb%20body",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "https://youtu.be/dQw4w9WgXcQ?rel=0#t=92",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None is wrong",
+        "is_correct": true
+      },
+      {
+        "label": "5",
+        "text": "All are wrong",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "All the provided URLs follow valid syntax per RFC 3986. URLs can include various schemes (http, mailto, https), userinfo, port numbers, paths, query strings, and fragments. Even unusual-looking URLs can be syntactically correct."
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q10",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 10,
+    "page": 1,
+    "question_text": "HTTP/2 requires all transactions to use secure HTTP (over SSL/TLS):",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The HTTP/2 specification (RFC 7540) does not mandate TLS. However, all major browsers only implement HTTP/2 over TLS (h2), making encryption practically required. The unencrypted variant (h2c) exists in the spec but is rarely supported by browsers. [Slides: HTTP/2 negotiation](https://projecteweb-2026.github.io/session-2/26)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q11",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 11,
+    "page": 1,
+    "question_text": "REST is used to provide state to stateless protocols:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "REST (Representational State Transfer) is an architectural style, not a mechanism to add state. One of REST's key constraints is statelessness — each request must be self-contained with all information needed. The server does not store client session state between requests. [Slides: Stateless constraint](https://projecteweb-2026.github.io/session-3/8)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q12",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 12,
+    "page": 1,
+    "question_text": "HTTP provides tools to mitigate XSS security issues:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Via specific headers.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Using HTTP/2.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Via SSL usage.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP provides security headers to mitigate XSS: Content-Security-Policy (CSP) restricts which scripts can execute, and the deprecated X-XSS-Protection enabled browser-side XSS filters. SSL/TLS protects against eavesdropping but not XSS, and HTTP/2 is about performance, not security policies. [Slides: XSS defense](https://projecteweb-2026.github.io/session-3/18)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q13",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 13,
+    "page": 2,
+    "question_text": "Which of the following recommendations is followed by applications adhering to the 12factor guides:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Using high performance programming languages (Python, Ruby, PHP, etc.)",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Using REST and HTTP/2",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Storing configuration on environment variables",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "Having a GIT repo for development, another for experimentation, another for testing, and one for deployment, all totally isolated from one another.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The 12-Factor App methodology (Factor III: Config) states that configuration varying between deployments should be stored in environment variables, not in code. This separates config from code, enabling the same codebase to run across different environments (dev, staging, production). [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q14",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 14,
+    "page": 2,
+    "question_text": "DJango adheres to a model similar to MVC calling it:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Model-View-Template",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Multiple-View-Data-Abstraction",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Controller-Template-Database",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Django uses MVT (Model-View-Template): Model defines the data layer, View handles business logic (equivalent to MVC's Controller), and Template handles presentation (equivalent to MVC's View). The naming can be confusing because Django's \"View\" maps to MVC's \"Controller\". [Slides: Django MVT](https://projecteweb-2026.github.io/session-3/31)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q15",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 15,
+    "page": 2,
+    "question_text": "REST requires URLs to be short and easy to remember:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "REST imposes no constraint on URL length or memorability. REST requires resources to be identified by URIs that follow a consistent, meaningful structure. Long, descriptive URLs like /api/v1/users/123/orders/456/items are perfectly RESTful. [Slides: REST API design](https://projecteweb-2026.github.io/session-3/13)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q16",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 16,
+    "page": 2,
+    "question_text": "In which file we’ll find the code:",
+    "options": [
+      {
+        "label": "1",
+        "text": "models.py",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "views.py",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "database.py",
+        "is_correct": false
+      },
+      {
+        "label": "5",
+        "text": "entities.py",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Donor(models.Model):\n    name = models.CharField(max_length=40)\n    def __unicode__(self):\n        return self.name\nclass Sobre(models.Model):\n    date = models.DateTimeField()\n    amount = models.IntegerField()\n    donor = models.ForeignKey(Donor)\n    user = models.ForeignKey(User)\n    def __unicode__(self):\n        return self.donor.name+\" - \"+self.concept",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The code defines Django models (classes extending models.Model with fields like CharField, ForeignKey, DateTimeField). In Django's architecture, model definitions always go in models.py, which defines the data layer and generates the database schema via migrations. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q17",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 17,
+    "page": 2,
+    "question_text": "Which entities will the database have (either defined implicitly or explicitly on the code):",
+    "options": [
+      {
+        "label": "1",
+        "text": "Donor",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Sobre",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "User",
+        "is_correct": true
+      }
+    ],
+    "type": "multi_select",
+    "answer_text": null,
+    "correct_option_indices": [
+      0,
+      1,
+      2
+    ],
+    "correct_option_labels": [
+      "1",
+      "2",
+      "3"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Donor(models.Model):\n    name = models.CharField(max_length=40)\n    def __unicode__(self):\n        return self.name\nclass Sobre(models.Model):\n    date = models.DateTimeField()\n    amount = models.IntegerField()\n    donor = models.ForeignKey(Donor)\n    user = models.ForeignKey(User)\n    def __unicode__(self):\n        return self.donor.name+\" - \"+self.concept",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The code explicitly defines Donor and Sobre as model classes (class Donor(models.Model), class Sobre(models.Model)). User is implicitly present because it's imported from django.contrib.auth.models and used as a ForeignKey target. Every model class and imported ForeignKey target creates a database table. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q18",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 18,
+    "page": 2,
+    "question_text": "Which uses has the function __unicode__?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Show a representation of the entity to be used, amongst other places, on the admin interface.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Convert the data to UTF-8 to store them on disk.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Generate a valid string to be used as primary key.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Donor(models.Model):\n    name = models.CharField(max_length=40)\n    def __unicode__(self):\n        return self.name\nclass Sobre(models.Model):\n    date = models.DateTimeField()\n    amount = models.IntegerField()\n    donor = models.ForeignKey(Donor)\n    user = models.ForeignKey(User)\n    def __unicode__(self):\n        return self.donor.name+\" - \"+self.concept",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "In Python 2, __unicode__() returns the string representation of a model instance. Django uses this in the admin interface, shell, templates, and anywhere an object needs a human-readable display. In Python 3 / modern Django, __str__() serves the same purpose."
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q19",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 19,
+    "page": 2,
+    "question_text": "What’s on urls.py in Django?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A list of URL patterns and which view should be run when they are requested.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "A list of servers for the project.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "The URLs of the project users profiles.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "urls.py contains Django's URL configuration (URLconf) — a mapping between URL patterns and view functions. Each incoming HTTP request is matched against these patterns to determine which view handles it. Patterns are defined using path() or re_path(). [Slides: Django urls](https://projecteweb-2026.github.io/session-3/33)"
+  },
+  {
+    "id": "2017/2018-EXAMEN PARCIAL 1-Q20",
+    "course_year": "2017/2018",
+    "exam_title": "EXAMEN PARCIAL 1",
+    "subject": "Web Project",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2018-04-en-solved.pdf",
+    "question_number": 20,
+    "page": 2,
+    "question_text": "What can we use docker-compose for?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Create a design of which containers and connections our application comprises.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Download virtual machines for VirtualBox easily.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Upload our code to Heroku easily stating the Python dependencies.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "docker-compose defines multi-container application architectures in a YAML file (docker-compose.yml). It specifies which services (containers) to run, their images, networks, volumes, ports, and dependencies. Running \"docker-compose up\" starts the entire stack. [Slides: docker-compose](https://projecteweb-2026.github.io/session-3/38)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q1",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 1,
+    "page": 1,
+    "question_text": "Which is the main goal of HTTP:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Video transmission of sporting events.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Email delivery.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Hypertext information transport.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "Terminal access to remote hosts.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP (HyperText Transfer Protocol) was designed specifically for transferring hypertext documents and related resources across the web. Video streaming uses RTSP/HLS, email uses SMTP/IMAP, and terminal access uses SSH/Telnet. [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q2",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 2,
+    "page": 1,
+    "question_text": "HTTP/1.2 is a binary based protocol while HTTP/2 is a text based protocol:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "This is the reverse of the true statement. HTTP/1.x is text-based (headers are plain ASCII), and HTTP/2 is binary (uses binary framing). The question reverses them, so it's false. [Slides: HTTP/2 features](https://projecteweb-2026.github.io/session-2/18)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q3",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 3,
+    "page": 1,
+    "question_text": "HTTP/1.2 was designed to reduce the number of UDP connections between computers:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP uses TCP, not UDP. HTTP/1.x (there's no actual 1.2) was not designed around UDP at all. Only HTTP/3 uses UDP via the QUIC protocol. Additionally, the goal of newer HTTP versions was to reduce latency, not the number of connections per se. [Slides: HTTP/1.0 vs 1.1](https://projecteweb-2026.github.io/session-2/4)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q4",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 4,
+    "page": 1,
+    "question_text": "HTTP/2 adds user profile and preferences storage to HTTP 1.x:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/2 focuses on performance improvements (binary framing, multiplexing, header compression, server push). It does not add user profiles or preferences storage — that's an application-level concern handled by cookies, sessions, or databases. [Slides: HTTP/2 key features](https://projecteweb-2026.github.io/session-2/19)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q5",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 5,
+    "page": 1,
+    "question_text": "The E-Tag header field on HTTP:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Adds a cryptographic signature to the data to validate its integrity.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Doesn’t exist. No existeix.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Adds tags to REST resources to classify data by its topics and types.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Labels the different versions of a resource. Etiqueta les diferents versions d’un recurs.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "ETag provides a unique identifier (often a hash) for a specific version of a resource. It's used for cache validation via conditional requests (If-None-Match). It doesn't add cryptographic signatures, doesn't classify data by topics, and definitely exists as a standard HTTP header. [Slides: ETag](https://projecteweb-2026.github.io/session-2/15)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q6",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 6,
+    "page": 1,
+    "question_text": "What do we define on views.py in Django?",
+    "options": [
+      {
+        "label": "1",
+        "text": "With python we define the data model.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "The Controller of MVC: the code controlling the business logic of the application.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "How the user views the data: a user interface model for HTML templates.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "In Django's MVT pattern, views.py acts as the Controller from MVC. It contains the business logic: receiving requests, querying models, and returning responses (often rendered through templates). The \"View\" name can be misleading — it's really the controller. [Slides: Django views](https://projecteweb-2026.github.io/session-3/32)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q7",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 7,
+    "page": 1,
+    "question_text": "Last-Modified:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Is used to notify the date the latest configuration was changed on the server.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Can have concurrency issues when modifying resources if modifications are sub-second.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "Is the date of the last modification on github of the project code.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Is the user id of the user that last modified the resource.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Last-Modified has second-level granularity only. If a resource changes twice within the same second, the Last-Modified timestamp stays the same, causing incorrect cache behavior. ETag addresses this with unique per-version identifiers regardless of timing. [Slides: Last-Modified problem](https://projecteweb-2026.github.io/session-2/14)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q8",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 8,
+    "page": 1,
+    "question_text": "HTTP/3 uses P2P transport techniques to reduce used bandwidth:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/3 uses QUIC (a transport protocol built on UDP) to eliminate TCP head-of-line blocking and reduce connection setup latency. It has nothing to do with P2P techniques — it's still a standard client-server protocol. [Slides: HTTP/3](https://projecteweb-2026.github.io/session-2/29)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q9",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 9,
+    "page": 2,
+    "question_text": "Which of the following URLs is wrong:",
+    "options": [
+      {
+        "label": "1",
+        "text": "http://carlesm@password:www.udl.cat:32768/secret.php/test?files=none&do=%20",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "mailto:car@udl.cat,les@udl.cat?bcc=secret@udl.cat&subject=test%20t&body=un%20mail%0Aamb%20body",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "https://youtu.be/dQw4w9WgXcQ?rel=0#t=92",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "All are right.",
+        "is_correct": true
+      },
+      {
+        "label": "5",
+        "text": "All are wrong.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "All URLs shown are syntactically valid per RFC 3986. HTTP URLs with userinfo and non-standard ports, mailto URIs with multiple recipients and query parameters, and HTTPS URLs with query strings and fragments are all valid URI formats."
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q10",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 10,
+    "page": 2,
+    "question_text": "HTTP/2 requires all transactions to use Letsencrypt certificates over HTTP (using SSL/TLS):",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/2 does not require Let's Encrypt specifically or any particular certificate authority. The HTTP/2 spec doesn't even require TLS at all (h2c exists), though browsers only implement h2 over TLS. Any valid certificate from any CA works. [Slides: HTTP/2 negotiation](https://projecteweb-2026.github.io/session-2/26)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q11",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 11,
+    "page": 2,
+    "question_text": "REST is used to provide state and data persistence to stateless protocols:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "REST is an architectural style, not a tool for adding state or persistence. In fact, statelessness is one of REST's core constraints — the server must not store client state between requests. Each request must contain all needed information. [Slides: Stateless constraint](https://projecteweb-2026.github.io/session-3/8)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q12",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 12,
+    "page": 2,
+    "question_text": "REST representations can be:",
+    "options": [
+      {
+        "label": "1",
+        "text": "SQL and NoSQL. SQL i NoSQL.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Text and video mixed.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "All the previous.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "REST representations are messages exchanged between client and server containing resource data and metadata. They're not limited to SQL/NoSQL or text/video — representations can be in any format (JSON, XML, HTML, images, etc.) negotiated via content negotiation headers. [Slides: REST representations](https://projecteweb-2026.github.io/session-3/9)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q13",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 13,
+    "page": 2,
+    "question_text": "Which of the following recommendations is followed by applications adhering to the 12factor guides:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Using high performance compiled programming languages (Python, Ruby, PHP, etc.).",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Using REST and HTTP/2.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Storing configuration on environment variables.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "Having a GIT repo for development, another for experimentation, another for testing, and one for deployment, all totally isolated from one another.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "12-Factor App (Factor III: Config) mandates storing configuration in environment variables. This separates config from code, making the same codebase deployable across environments. It doesn't require specific languages, REST, or isolated Git repos per environment. [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q14",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 14,
+    "page": 2,
+    "question_text": "Django adheres to a model analogous to MVC calling it:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Model-View-Template",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Multiple-View-Data-Abstraction",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Controller-Template-Database",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Django uses MVT (Model-View-Template), analogous to MVC. Model=Model (data), View=Controller (logic), Template=View (presentation). The key insight is that Django's \"View\" is MVC's \"Controller\". [Slides: Django MVT](https://projecteweb-2026.github.io/session-3/31)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q15",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 15,
+    "page": 2,
+    "question_text": "REST requires URLs to be short and easy to remember:",
+    "options": [
+      {
+        "label": "1",
+        "text": "True",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "False",
+        "is_correct": true
+      }
+    ],
+    "type": "true_false",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "REST has no requirement about URL length or memorability. REST requires that resources be identified by URIs and that the API follows a uniform interface. URLs should be meaningful and hierarchical, but can be as long as needed. [Slides: REST API design](https://projecteweb-2026.github.io/session-3/13)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q16",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 16,
+    "page": 3,
+    "question_text": "In which file we'll find the code:",
+    "options": [
+      {
+        "label": "1",
+        "text": "models.py",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "views.py",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "database.py",
+        "is_correct": false
+      },
+      {
+        "label": "5",
+        "text": "entities.py",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Donor(models.Model):\n    name = models.CharField(max_length=40)\n    def __str__(self):\n        return self.name\nclass Envelope(models.Model):\n    date = models.DateTimeField()\n    amount = models.IntegerField()\n    donor = models.ForeignKey(Donor)\n    user = models.ForeignKey(User)\n    def __str__(self):\n        return self.donor.name+\" - \"+self.concept",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The code defines Django model classes (inheriting from models.Model) with database fields. This is the data layer code that always belongs in models.py, which Django uses to generate database tables through migrations. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q17",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 17,
+    "page": 3,
+    "question_text": "Which entities will the database have (either defined implicitly or explicitly on the code):",
+    "options": [
+      {
+        "label": "1",
+        "text": "User",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Donor",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "Envelope",
+        "is_correct": true
+      }
+    ],
+    "type": "multi_select",
+    "answer_text": null,
+    "correct_option_indices": [
+      0,
+      1,
+      2
+    ],
+    "correct_option_labels": [
+      "1",
+      "2",
+      "3"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Donor(models.Model):\n    name = models.CharField(max_length=40)\n    def __str__(self):\n        return self.name\nclass Envelope(models.Model):\n    date = models.DateTimeField()\n    amount = models.IntegerField()\n    donor = models.ForeignKey(Donor)\n    user = models.ForeignKey(User)\n    def __str__(self):\n        return self.donor.name+\" - \"+self.concept",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Donor and Envelope are explicitly defined as model classes. User is implicitly present — imported from django.contrib.auth.models and referenced as a ForeignKey in Envelope. All three will have corresponding database tables. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q18",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 18,
+    "page": 3,
+    "question_text": "Which uses has the function __str__?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Show a representation of the entity to be used, amongst other places, on the admin interface.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Convert the data to UTF-8 to store them on disk.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Generate a valid string to be used as primary key.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Donor(models.Model):\n    name = models.CharField(max_length=40)\n    def __str__(self):\n        return self.name\nclass Envelope(models.Model):\n    date = models.DateTimeField()\n    amount = models.IntegerField()\n    donor = models.ForeignKey(Donor)\n    user = models.ForeignKey(User)\n    def __str__(self):\n        return self.donor.name+\" - \"+self.concept",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "__str__() returns a human-readable string representation of a model instance. Django displays this in the admin interface, the shell, form widgets, and anywhere an object needs to be shown as text. It does not handle encoding or key generation."
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q19",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 19,
+    "page": 3,
+    "question_text": "What's on the urls.py file in Django?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A list of URL patterns and which view should be run when they are requested.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "A list of servers for the project.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "The URLs of the project users profiles.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "urls.py defines the URL routing configuration — a list of URL patterns mapped to view functions. When a request arrives, Django matches the URL against these patterns and calls the corresponding view. It doesn't list servers or user profiles. [Slides: Django urls](https://projecteweb-2026.github.io/session-3/33)"
+  },
+  {
+    "id": "2018/2019-MIDTERM EXAM-Q20",
+    "course_year": "2018/2019",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2019-04-en-Solved.pdf",
+    "question_number": 20,
+    "page": 3,
+    "question_text": "What can we use docker-compose for?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Create a design of which containers and connections our application comprises.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Download virtual machines for VirtualBox easily.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Upload our code to Heroku easily stating the Python dependencies.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "docker-compose defines multi-container architectures in a YAML file, specifying services, networks, volumes, and their relationships. It doesn't download VMs (that's Vagrant) or deploy to Heroku (that's git push or Heroku CLI). [Slides: docker-compose](https://projecteweb-2026.github.io/session-3/38)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q1",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 1,
+    "page": 1,
+    "question_text": "What is HTTP and what does it stand for?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A programming language.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "A markup language.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "A protocol for communication on the web.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "An operating system.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP is a protocol (not a language or OS) designed for communication on the web. It defines how clients (browsers) and servers exchange hypertext documents and other resources using request-response pairs over TCP (or QUIC in HTTP/3). [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q1-acronym",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 1,
+    "subquestion": "acronym",
+    "page": 1,
+    "question_text": "HTTP acronym expansion (what does HTTP stand for?)",
+    "type": "short_answer",
+    "options": [],
+    "answer_text": "HyperText Transfer Protocol",
+    "accepted_answers": [
+      "HyperText Transfer Protocol",
+      "Hypertext Transfer Protocol",
+      "Hypertext transfer protocol"
+    ],
+    "correct_option_indices": [],
+    "correct_option_labels": [],
+    "context": null,
+    "answer_map": null,
+    "explanation": "HTTP stands for HyperText Transfer Protocol. \"HyperText\" refers to documents with links to other documents, \"Transfer\" indicates data movement, and \"Protocol\" means a set of rules for communication. [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q2",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 2,
+    "page": 1,
+    "question_text": "What is the main goal of HTTP/2?",
+    "options": [
+      {
+        "label": "1",
+        "text": "To reduce latency.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "To increase network security.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "To support more data formats.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "To enable offline mobile access.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/2's primary goal was reducing latency through multiplexing (many requests over one connection), binary framing, header compression (HPACK), and server push. Security and data format support were not its focus. [Slides: HTTP/2](https://projecteweb-2026.github.io/session-2/18)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q3",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 3,
+    "page": 1,
+    "question_text": "How does HTTP/2 improve upon HTTP/1.1?",
+    "options": [
+      {
+        "label": "1",
+        "text": "By using a more efficient binary format for data transmission.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "By increasing the number of concurrent requests.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "By compressing headers to reduce overhead.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "All of the above.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/2 improves on HTTP/1.1 in all three ways: binary framing (more efficient parsing), multiplexing (concurrent requests on one connection), and HPACK header compression (reduced overhead). All these together significantly reduce latency. [Slides: HTTP/2 key features](https://projecteweb-2026.github.io/session-2/19)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q4",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 4,
+    "page": 1,
+    "question_text": "What is server push in HTTP/2?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A way for the server to send resources to the client before they are requested.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "A way for the client to send requests to the server before they are needed.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "A way for the server to cache resources for faster retrieval.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "A way for the client to specify which resources to prioritize.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Server push in HTTP/2 allows the server to proactively send resources (CSS, JS, images) to the client before the client requests them. When serving an HTML page, the server can predict what the client will need next and push those resources preemptively. [Slides: Server push](https://projecteweb-2026.github.io/session-2/24)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q5",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 5,
+    "page": 1,
+    "question_text": "How is the ETag header used in HTTP caching?",
+    "options": [
+      {
+        "label": "1",
+        "text": "It specifies the maximum age of a cached resource.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "It indicates the last modified time of a resource.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "It provides a way for the server to compare versions of a resource.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "It controls access to a resource based on user permissions.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "ETag enables cache validation by letting the server compare resource versions. The client sends If-None-Match with the stored ETag; if it matches, the server responds 304 Not Modified. ETag is not about max-age (that's Cache-Control), timestamps (that's Last-Modified), or access control. [Slides: ETag](https://projecteweb-2026.github.io/session-2/15)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q6",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 6,
+    "page": 1,
+    "question_text": "What is a Django view?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A function that handles HTTP requests and returns HTTP responses.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "A template used for rendering HTML pages in Django.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "A middleware component in Django for handling authentication and authorization.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "A tool for managing Django models and database schema changes.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "A Django view is a function (or class) that receives an HTTP request and returns an HTTP response. In MVT terms, the View is the Controller — it contains the business logic. It's not a template (that's the Template), not middleware, and not a migration tool. [Slides: Django views](https://projecteweb-2026.github.io/session-3/32)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q7",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 7,
+    "page": 1,
+    "question_text": "How does HTTP/3 improve upon HTTP/2?",
+    "options": [
+      {
+        "label": "1",
+        "text": "By using a more efficient binary format for data transmission.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "By increasing the number of concurrent requests.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "By compressing headers to reduce overhead.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "By using QUIC, a new transport protocol that improves speed and reliability.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HTTP/3 uses QUIC, a transport protocol built on UDP instead of TCP. QUIC eliminates TCP head-of-line blocking, provides 0-RTT connection resumption, and includes built-in encryption. Binary format and header compression were already in HTTP/2. [Slides: HTTP/3](https://projecteweb-2026.github.io/session-2/29)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q8",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 8,
+    "page": 2,
+    "question_text": "What is the issue with using Last-Modified headers in HTTP when a resource has been modified in less than a second?",
+    "options": [
+      {
+        "label": "1",
+        "text": "The Last-Modified header cannot be sent in case of sub-second modification times.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "The Last-Modified header will always show the time of the last full second, leading to incorrect caching behavior.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "The Last-Modified header will automatically round up to the nearest minute, leading to incorrect caching behavior.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "There is no issue with using Last-Modified headers in HTTP for sub-second modification times.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Last-Modified uses second-level precision (HTTP-date format). If a resource changes twice within one second, both modifications share the same timestamp, leading to stale cache entries. ETag solves this with unique per-version identifiers. [Slides: Last-Modified problem](https://projecteweb-2026.github.io/session-2/14)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q9",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 9,
+    "page": 2,
+    "question_text": "What is a status code in HTTP and what are the possible initial digits and their meaning?",
+    "options": [],
+    "type": "matching",
+    "answer_text": "1xx = Informational, 2xx = Success, 3xx = Redirection, 4xx = Client error, 5xx = Server error",
+    "correct_option_indices": [],
+    "correct_option_labels": [],
+    "context": null,
+    "answer_map": {
+      "1xx": "Informational",
+      "2xx": "Success",
+      "3xx": "Redirection",
+      "4xx": "Client error",
+      "5xx": "Server error"
+    },
+    "subquestion": null,
+    "accepted_answers": null,
+    "explanation": "HTTP status codes are three-digit numbers grouped by first digit: 1xx = Informational (request received), 2xx = Success (request fulfilled), 3xx = Redirection (further action needed), 4xx = Client Error (bad request), 5xx = Server Error (server failed). [Slides: HTTP recap](https://projecteweb-2026.github.io/session-2/3)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q10",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 10,
+    "page": 2,
+    "question_text": "Which constraint of the REST architectural style requires that the server does not maintain any client state between requests?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Client-server. Client-servidor.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Stateless. Sense estat.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "Cacheable.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Layered system. Multicapa.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The Stateless constraint means the server stores no client state between requests. Each request must be self-contained with all authentication, context, and data needed. This enables scalability since any server can handle any request. [Slides: Stateless constraint](https://projecteweb-2026.github.io/session-3/8)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q11",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 11,
+    "page": 2,
+    "question_text": "What is a REST representation?",
+    "options": [
+      {
+        "label": "1",
+        "text": "The underlying data format used to store resources on the server.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "A collection of hyperlinks that define the resource's state transitions.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "A message sent between the client and server that contains resource data and metadata.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "The process of translating resource data into a specific format, such as JSON or XML.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "A REST representation is a message (like a JSON or XML document) exchanged between client and server containing resource data plus metadata (content type, links, etc.). It's not the storage format, not just hyperlinks, and not the serialization process itself. [Slides: REST representations](https://projecteweb-2026.github.io/session-3/9)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q12",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 12,
+    "page": 2,
+    "question_text": "Which HTTP methods are commonly used in RESTful APIs?",
+    "options": [
+      {
+        "label": "1",
+        "text": "GET, POST, UPDATE, REMOVE",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "FETCH, SEND, UPDATE, DELETE",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "GET, POST, PUT, DELETE",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "GET, SEND, UPDATE, DELETE",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "RESTful APIs use standard HTTP methods: GET (read), POST (create), PUT (update/replace), DELETE (remove). Methods like UPDATE, REMOVE, FETCH, and SEND are not real HTTP methods defined in the HTTP specification. [Slides: HTTP methods in REST](https://projecteweb-2026.github.io/session-3/10)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q13",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 13,
+    "page": 2,
+    "question_text": "What is the primary goal of the 12 factor app guidelines?",
+    "options": [
+      {
+        "label": "1",
+        "text": "To increase the security of applications.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "To optimize application performance.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "To reduce the number of dependencies required by applications.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "To make it easier to deploy and maintain applications.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The 12-Factor App methodology aims to make applications easy to deploy, scale, and maintain across environments. It's not specifically about security, performance optimization, or reducing dependencies — it's about operational best practices. [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q14",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 14,
+    "page": 3,
+    "question_text": "Django adheres to a model analogous to MVC calling it:",
+    "options": [
+      {
+        "label": "1",
+        "text": "Model-View-Template",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "Multiple-View-Data-Abstraction",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Controller-Template-Database",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "None of the previous.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Django uses MVT (Model-View-Template), analogous to MVC. Model handles data, View handles logic (MVC's Controller), Template handles presentation (MVC's View). [Slides: Django MVT](https://projecteweb-2026.github.io/session-3/31)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q15",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 15,
+    "page": 3,
+    "question_text": "What is the primary element used to implement HATEOAS in a RESTful API?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Hyperlinks.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "HTTP headers.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Data models. Models de dades.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Authentication tokens.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "HATEOAS (Hypermedia As The Engine Of Application State) uses hyperlinks in responses to guide clients through available actions and related resources. Links tell clients what they can do next, making the API self-descriptive and discoverable. [Slides: HATEOAS](https://projecteweb-2026.github.io/session-3/11)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q16",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 16,
+    "page": 3,
+    "question_text": "In which file we'll find the code:",
+    "options": [
+      {
+        "label": "1",
+        "text": "models.py",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "views.py",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "database.py",
+        "is_correct": false
+      },
+      {
+        "label": "5",
+        "text": "entities.py",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Lesson(models.Model):\n    short_desc = models.CharField(max_length=200)\n    ects = models.DecimalField(max_digits=5, decimal_places=2)\n    authors = models.ManyToManyField(Author)\nclass Topic(models.Model):\n    short_desc = models.CharField(max_length=100)\n    lessons = models.ManyToManyField(Lesson, on_delete=models.CASCADE)\nclass Inscription(models.Model):\n    user = models.ForeignKey(User, on_delete=models.PROTECT)\n    paid = models.DateTimeField(auto_now=False, null=True)\nclass InscriptionItem(models.Model):\n    inscription = models.ForeignKey(Inscription, on_delete=models.PROTECT)\n    lesson = models.ForeignKey(Lesson, on_delete=models.PROTECT)",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The code defines Django models (classes extending models.Model with fields like CharField, DecimalField, ForeignKey, ManyToManyField). Model definitions belong in models.py — Django's data layer that generates the database schema. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q17",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 17,
+    "page": 3,
+    "question_text": "Which entities will the database have (either defined implicitly or explicitly on the code):",
+    "options": [],
+    "type": "open",
+    "answer_text": "User, Lesson, Author, Topic, Inscription, InscriptionItem",
+    "correct_option_indices": [],
+    "correct_option_labels": [],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Lesson(models.Model):\n    short_desc = models.CharField(max_length=200)\n    ects = models.DecimalField(max_digits=5, decimal_places=2)\n    authors = models.ManyToManyField(Author)\nclass Topic(models.Model):\n    short_desc = models.CharField(max_length=100)\n    lessons = models.ManyToManyField(Lesson, on_delete=models.CASCADE)\nclass Inscription(models.Model):\n    user = models.ForeignKey(User, on_delete=models.PROTECT)\n    paid = models.DateTimeField(auto_now=False, null=True)\nclass InscriptionItem(models.Model):\n    inscription = models.ForeignKey(Inscription, on_delete=models.PROTECT)\n    lesson = models.ForeignKey(Lesson, on_delete=models.PROTECT)",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Explicit models: Lesson, Topic, Inscription, InscriptionItem. Implicit models: User (imported from django.contrib.auth), Author (referenced in ManyToManyField but defined elsewhere). Additionally, ManyToManyField creates intermediate junction tables automatically. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q18",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 18,
+    "page": 3,
+    "question_text": "Write a short (1 CharField) implementation of a missing model that's required from the above code.",
+    "options": [],
+    "type": "open",
+    "answer_text": "class Author(models.Model):\nname = models.CharField(max_length=200)",
+    "correct_option_indices": [],
+    "correct_option_labels": [],
+    "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Lesson(models.Model):\n    short_desc = models.CharField(max_length=200)\n    ects = models.DecimalField(max_digits=5, decimal_places=2)\n    authors = models.ManyToManyField(Author)\nclass Topic(models.Model):\n    short_desc = models.CharField(max_length=100)\n    lessons = models.ManyToManyField(Lesson, on_delete=models.CASCADE)\nclass Inscription(models.Model):\n    user = models.ForeignKey(User, on_delete=models.PROTECT)\n    paid = models.DateTimeField(auto_now=False, null=True)\nclass InscriptionItem(models.Model):\n    inscription = models.ForeignKey(Inscription, on_delete=models.PROTECT)\n    lesson = models.ForeignKey(Lesson, on_delete=models.PROTECT)",
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs: class Author(models.Model): name = models.CharField(max_length=200). This provides the required model with one CharField. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q19",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 19,
+    "page": 3,
+    "question_text": "What is a Django URL pattern?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A regular expression that matches a URL and maps it to a view function in Django.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "A tool for managing Django models and database schema changes.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "A middleware component in Django for handling authentication and authorization.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "A file that defines the structure and content of an HTML page in Django.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "A Django URL pattern maps URLs to views using path() or re_path() (which accepts regex). When a request arrives, Django iterates through urlpatterns and calls the view of the first match. It's not a migration tool, middleware, or template. [Slides: Django urls](https://projecteweb-2026.github.io/session-3/33)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q20",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 20,
+    "page": 4,
+    "question_text": "In HATEOAS, what is the purpose of the hyperlinks included in the resource representation?",
+    "options": [
+      {
+        "label": "1",
+        "text": "To provide metadata about the resource.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "To define the data format for the resource.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "To enable clients to interact with the resource.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "To provide a navigation path to related resources.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "In HATEOAS, hyperlinks in responses provide navigation paths to related resources. They tell the client what actions are available and where related data lives, enabling clients to discover the API dynamically without hardcoding URLs. [Slides: HATEOAS](https://projecteweb-2026.github.io/session-3/11)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q21",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 21,
+    "page": 4,
+    "question_text": "Which of the following is a way to configure a Docker container at runtime that follows the 12Factor guidelines?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Modify the Dockerfile and rebuild the image.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Use environment variables.",
+        "is_correct": true
+      },
+      {
+        "label": "3",
+        "text": "Modify the Docker image directly.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "Use command-line options when starting the container.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      1
+    ],
+    "correct_option_labels": [
+      "2"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "12-Factor App (Factor III) says config should be in environment variables. Docker supports this via -e flags or docker-compose environment sections. Rebuilding images or modifying them directly for config changes violates the separation of config from code. [Slides: 12-Factor & Docker](https://projecteweb-2026.github.io/session-3/39)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q22",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 22,
+    "page": 4,
+    "question_text": "Which of the following is the way to manage multiple containers in a Docker environment?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Use the docker run command for each container.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Use a Dockerfile for each container.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Use docker-compose to define and run the containers.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "Use a separate Docker daemon for each container. Utilitzeu un daemon Docker diferent per a cada contenidor.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "docker-compose is the standard tool for defining and running multi-container Docker applications. It uses a YAML file to configure services, networks, and volumes, and can start everything with one command. Individual docker run commands don't orchestrate dependencies. [Slides: docker-compose](https://projecteweb-2026.github.io/session-3/38)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q23",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 23,
+    "page": 4,
+    "question_text": "Which of the following is true about Docker containers for web applications?",
+    "options": [
+      {
+        "label": "1",
+        "text": "They run on bare-metal servers. S'executen directament sobre el maquinari.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "They are heavyweight virtual machines.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "They require a separate operating system.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "They share the same operating system kernel as the host.",
+        "is_correct": true
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      3
+    ],
+    "correct_option_labels": [
+      "4"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Docker containers share the host's OS kernel, using Linux namespaces and cgroups for isolation. Unlike VMs, they don't need a separate OS, making them lightweight. They don't run on bare metal directly (they need the Docker engine) and aren't heavyweight VMs. [Slides: Containers vs VMs](https://projecteweb-2026.github.io/session-3/37)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q24",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 24,
+    "page": 4,
+    "question_text": "What are Django migrations?",
+    "options": [
+      {
+        "label": "1",
+        "text": "A tool for managing Django models and database schema changes.",
+        "is_correct": true
+      },
+      {
+        "label": "2",
+        "text": "A middleware component in Django for handling authentication and authorization.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "A template used for rendering HTML pages in Django.",
+        "is_correct": false
+      },
+      {
+        "label": "4",
+        "text": "A built-in feature of Django for creating an administrative interface for managing data.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      0
+    ],
+    "correct_option_labels": [
+      "1"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Django migrations are a version control system for database schemas. When you change models, \"makemigrations\" generates migration files, and \"migrate\" applies them. They're not middleware, templates, or the admin interface. [Slides: Django migrations](https://projecteweb-2026.github.io/session-3/35)"
+  },
+  {
+    "id": "2022/2023-MIDTERM EXAM-Q25",
+    "course_year": "2022/2023",
+    "exam_title": "MIDTERM EXAM",
+    "subject": "Projecte Web",
+    "professors": "Roberto Garcia, Carles Mateu",
+    "pdf_filename": "parcial-2023-04-en_cat_sol.pdf",
+    "question_number": 25,
+    "page": 4,
+    "question_text": "Which of the following is a key principle of the 12 factor app guidelines?",
+    "options": [
+      {
+        "label": "1",
+        "text": "Decouple the application into smaller, independent services.",
+        "is_correct": false
+      },
+      {
+        "label": "2",
+        "text": "Use the latest programming languages and frameworks.",
+        "is_correct": false
+      },
+      {
+        "label": "3",
+        "text": "Store application configuration with code.",
+        "is_correct": true
+      },
+      {
+        "label": "4",
+        "text": "Maximize resource utilization on application servers.",
+        "is_correct": false
+      }
+    ],
+    "type": "mcq",
+    "answer_text": null,
+    "correct_option_indices": [
+      2
+    ],
+    "correct_option_labels": [
+      "3"
+    ],
+    "context": null,
+    "subquestion": null,
+    "accepted_answers": null,
+    "answer_map": null,
+    "explanation": "Factor I (Codebase) of 12-Factor says one codebase tracked in version control, many deploys. Factor III (Config) says store config in environment variables. \"Store configuration with code\" aligns with keeping a single codebase. Note: this is about code+config co-location in the repo, not environment-specific values. [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+  }
+]
