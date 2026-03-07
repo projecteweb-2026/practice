@@ -1010,7 +1010,7 @@
       },
       {
         "label": "2",
-        "text": "Doesn’t exist. No existeix.",
+        "text": "Doesn’t exist.",
         "is_correct": false
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "4",
-        "text": "Labels the different versions of a resource. Etiqueta les diferents versions d’un recurs.",
+        "text": "Labels the different versions of a resource.",
         "is_correct": true
       }
     ],
@@ -1302,7 +1302,7 @@
     "options": [
       {
         "label": "1",
-        "text": "SQL and NoSQL. SQL i NoSQL.",
+        "text": "SQL and NoSQL.",
         "is_correct": false
       },
       {
@@ -2110,12 +2110,12 @@
     "options": [
       {
         "label": "1",
-        "text": "Client-server. Client-servidor.",
+        "text": "Client-server.",
         "is_correct": false
       },
       {
         "label": "2",
-        "text": "Stateless. Sense estat.",
+        "text": "Stateless.",
         "is_correct": true
       },
       {
@@ -2125,7 +2125,7 @@
       },
       {
         "label": "4",
-        "text": "Layered system. Multicapa.",
+        "text": "Layered system.",
         "is_correct": false
       }
     ],
@@ -2350,7 +2350,7 @@
       },
       {
         "label": "3",
-        "text": "Data models. Models de dades.",
+        "text": "Data models.",
         "is_correct": false
       },
       {
@@ -2627,7 +2627,7 @@
       },
       {
         "label": "4",
-        "text": "Use a separate Docker daemon for each container. Utilitzeu un daemon Docker diferent per a cada contenidor.",
+        "text": "Use a separate Docker daemon for each container.",
         "is_correct": false
       }
     ],
@@ -2658,7 +2658,7 @@
     "options": [
       {
         "label": "1",
-        "text": "They run on bare-metal servers. S'executen directament sobre el maquinari.",
+        "text": "They run on bare-metal servers.",
         "is_correct": false
       },
       {
