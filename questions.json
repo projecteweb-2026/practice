@@ -1,8 +1,8 @@
 [
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q1",
+    "id": "2017/2018-MIDTERM EXAM-Q1",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -43,12 +43,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP (HyperText Transfer Protocol) was designed specifically for transferring hypertext documents (HTML) and related resources across the web. P2P file sharing uses protocols like BitTorrent, email uses SMTP/IMAP, and videoconferencing uses RTP/WebRTC. [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+    "explanation": "HTTP (HyperText Transfer Protocol) was designed specifically for transferring hypertext documents (HTML) and related resources across the web. P2P file sharing uses protocols like BitTorrent, email uses SMTP/IMAP, and videoconferencing uses RTP/WebRTC.",
+    "hint": "Think about what the acronym HTTP stands for. The 'HT' part reveals its purpose."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q2",
+    "id": "2017/2018-MIDTERM EXAM-Q2",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -79,12 +80,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/1.1 (the question says 1.2 which doesn't exist, but refers to the HTTP/1.x family) uses plain text for headers and framing. HTTP/2 introduced binary framing, which is more efficient to parse and less error-prone than text-based protocols. [Slides: HTTP/2 features](https://projecteweb-2026.github.io/session-2/18)"
+    "explanation": "HTTP/1.1 (the question says 1.2 which doesn't exist, but refers to the HTTP/1.x family) uses plain text for headers and framing. HTTP/2 introduced binary framing, which is more efficient to parse and less error-prone than text-based protocols.",
+    "hint": "HTTP/1.x uses plain text headers you can read in a terminal. HTTP/2 introduced a different encoding for performance."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q3",
+    "id": "2017/2018-MIDTERM EXAM-Q3",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -115,12 +117,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP has always used TCP, not UDP, as its transport protocol. HTTP/1.0 opens a new TCP connection per request, which is inefficient. HTTP/1.1 introduced persistent connections (keep-alive). Only HTTP/3 uses UDP, via the QUIC protocol. [Slides: HTTP/1.0 vs 1.1](https://projecteweb-2026.github.io/session-2/4)"
+    "explanation": "HTTP has always used TCP, not UDP, as its transport protocol. HTTP/1.0 opens a new TCP connection per request, which is inefficient. HTTP/1.1 introduced persistent connections (keep-alive). Only HTTP/3 uses UDP, via the QUIC protocol.",
+    "hint": "All HTTP versions before HTTP/3 use TCP as transport. Only HTTP/3 uses UDP (via QUIC)."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q4",
+    "id": "2017/2018-MIDTERM EXAM-Q4",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -151,12 +154,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/2 focused purely on performance: binary framing, multiplexing, header compression (HPACK), and server push. It does not add user validation or digital signatures — those are handled by TLS/SSL and application-level authentication. [Slides: HTTP/2 key features](https://projecteweb-2026.github.io/session-2/19)"
+    "explanation": "HTTP/2 focused purely on performance: binary framing, multiplexing, header compression (HPACK), and server push. It does not add user validation or digital signatures - those are handled by TLS/SSL and application-level authentication.",
+    "hint": "HTTP/2 focused on performance: multiplexing, binary framing, header compression, server push. Security features like authentication are handled elsewhere."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q5",
+    "id": "2017/2018-MIDTERM EXAM-Q5",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -197,12 +201,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "ETag (Entity Tag) is a response header that provides a unique identifier for a specific version of a resource. The server generates an ETag for each version, and the client can use If-None-Match to validate its cache, enabling efficient conditional requests. [Slides: ETag](https://projecteweb-2026.github.io/session-2/15)"
+    "explanation": "ETag (Entity Tag) is a response header that provides a unique identifier for a specific version of a resource. The server generates an ETag for each version, and the client can use If-None-Match to validate its cache, enabling efficient conditional requests.",
+    "hint": "ETag stands for Entity Tag. Think about what 'tagging' each version of a resource enables for caching."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q6",
+    "id": "2017/2018-MIDTERM EXAM-Q6",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -243,12 +248,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "In Django's MVT (Model-View-Template) pattern, views.py contains the view functions/classes that handle HTTP requests and return responses. Despite the name \"View\", Django views act as the Controller in MVC — they contain the business logic and decide what data to fetch and which template to render. [Slides: Django views](https://projecteweb-2026.github.io/session-3/32)"
+    "explanation": "In Django's MVT (Model-View-Template) pattern, views.py contains the view functions/classes that handle HTTP requests and return responses. Despite the name \"View\", Django views act as the Controller in MVC - they contain the business logic and decide what data to fetch and which template to render.",
+    "hint": "In Django's MVT, the naming is confusing: the View actually acts as MVC's Controller, handling business logic and request processing."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q7",
+    "id": "2017/2018-MIDTERM EXAM-Q7",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -289,12 +295,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Last-Modified has only second-level granularity. If a resource is modified multiple times within the same second, Last-Modified cannot distinguish between those versions. This creates concurrency issues for caching validation. ETag solves this by providing a unique identifier per version. [Slides: Last-Modified problem](https://projecteweb-2026.github.io/session-2/14)"
+    "explanation": "Last-Modified has only second-level granularity. If a resource is modified multiple times within the same second, Last-Modified cannot distinguish between those versions. This creates concurrency issues for caching validation. ETag solves this by providing a unique identifier per version.",
+    "hint": "Last-Modified uses timestamps with only second-level precision. Think about what happens when a resource changes multiple times within one second."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q8",
+    "id": "2017/2018-MIDTERM EXAM-Q8",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -325,12 +332,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/3 uses QUIC (built on UDP) to reduce latency and improve reliability, not P2P techniques. QUIC eliminates head-of-line blocking at the transport layer and provides faster connection establishment (0-RTT). P2P is a completely different networking paradigm. [Slides: HTTP/3](https://projecteweb-2026.github.io/session-2/29)"
+    "explanation": "HTTP/3 uses QUIC (built on UDP) to reduce latency and improve reliability, not P2P techniques. QUIC eliminates head-of-line blocking at the transport layer and provides faster connection establishment (0-RTT). P2P is a completely different networking paradigm.",
+    "hint": "HTTP/3 replaced TCP with QUIC (built on UDP) to reduce latency, but it is still a client-server protocol, not peer-to-peer."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q9",
+    "id": "2017/2018-MIDTERM EXAM-Q9",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -376,12 +384,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "All the provided URLs follow valid syntax per RFC 3986. URLs can include various schemes (http, mailto, https), userinfo, port numbers, paths, query strings, and fragments. Even unusual-looking URLs can be syntactically correct."
+    "explanation": "All the provided URLs follow valid syntax per RFC 3986. URLs can include various schemes (http, mailto, https), userinfo, port numbers, paths, query strings, and fragments. Even unusual-looking URLs can be syntactically correct.",
+    "hint": "A URL is valid if it follows RFC 3986 syntax: scheme://userinfo@host:port/path?query#fragment. Even unusual-looking URLs can be syntactically correct."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q10",
+    "id": "2017/2018-MIDTERM EXAM-Q10",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -412,12 +421,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The HTTP/2 specification (RFC 7540) does not mandate TLS. However, all major browsers only implement HTTP/2 over TLS (h2), making encryption practically required. The unencrypted variant (h2c) exists in the spec but is rarely supported by browsers. [Slides: HTTP/2 negotiation](https://projecteweb-2026.github.io/session-2/26)"
+    "explanation": "The HTTP/2 specification (RFC 7540) does not mandate TLS. However, all major browsers only implement HTTP/2 over TLS (h2), making encryption practically required. The unencrypted variant (h2c) exists in the spec but is rarely supported by browsers.",
+    "hint": "Distinguish between what the HTTP/2 specification says and what browsers actually implement. The spec allows unencrypted h2c."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q11",
+    "id": "2017/2018-MIDTERM EXAM-Q11",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -448,12 +458,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "REST (Representational State Transfer) is an architectural style, not a mechanism to add state. One of REST's key constraints is statelessness — each request must be self-contained with all information needed. The server does not store client session state between requests. [Slides: Stateless constraint](https://projecteweb-2026.github.io/session-3/8)"
+    "explanation": "REST (Representational State Transfer) is an architectural style, not a mechanism to add state. One of REST's key constraints is statelessness - each request must be self-contained with all information needed. The server does not store client session state between requests.",
+    "hint": "REST stands for Representational State Transfer. One of its six core constraints specifically addresses how the server handles client state."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q12",
+    "id": "2017/2018-MIDTERM EXAM-Q12",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -494,12 +505,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP provides security headers to mitigate XSS: Content-Security-Policy (CSP) restricts which scripts can execute, and the deprecated X-XSS-Protection enabled browser-side XSS filters. SSL/TLS protects against eavesdropping but not XSS, and HTTP/2 is about performance, not security policies. [Slides: XSS defense](https://projecteweb-2026.github.io/session-3/18)"
+    "explanation": "HTTP provides security headers to mitigate XSS: Content-Security-Policy (CSP) restricts which scripts can execute, and the deprecated X-XSS-Protection enabled browser-side XSS filters. SSL/TLS protects against eavesdropping but not XSS, and HTTP/2 is about performance, not security policies.",
+    "hint": "Think about HTTP response headers like Content-Security-Policy (CSP). What layer do they operate at: transport, protocol, or application?"
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q13",
+    "id": "2017/2018-MIDTERM EXAM-Q13",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -540,12 +552,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The 12-Factor App methodology (Factor III: Config) states that configuration varying between deployments should be stored in environment variables, not in code. This separates config from code, enabling the same codebase to run across different environments (dev, staging, production). [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+    "explanation": "The 12-Factor App methodology (Factor III: Config) states that configuration varying between deployments should be stored in environment variables, not in code. This separates config from code, enabling the same codebase to run across different environments (dev, staging, production).",
+    "hint": "12-Factor App Factor III (Config) is about separating configuration from code. How should config that varies between deploys be stored?"
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q14",
+    "id": "2017/2018-MIDTERM EXAM-Q14",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -586,12 +599,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Django uses MVT (Model-View-Template): Model defines the data layer, View handles business logic (equivalent to MVC's Controller), and Template handles presentation (equivalent to MVC's View). The naming can be confusing because Django's \"View\" maps to MVC's \"Controller\". [Slides: Django MVT](https://projecteweb-2026.github.io/session-3/31)"
+    "explanation": "Django uses MVT (Model-View-Template): Model defines the data layer, View handles business logic (equivalent to MVC's Controller), and Template handles presentation (equivalent to MVC's View). The naming can be confusing because Django's \"View\" maps to MVC's \"Controller\".",
+    "hint": "Django renames MVC components: Model stays Model, but the other two swap names. View = Controller, Template = View."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q15",
+    "id": "2017/2018-MIDTERM EXAM-Q15",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -622,12 +636,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "REST imposes no constraint on URL length or memorability. REST requires resources to be identified by URIs that follow a consistent, meaningful structure. Long, descriptive URLs like /api/v1/users/123/orders/456/items are perfectly RESTful. [Slides: REST API design](https://projecteweb-2026.github.io/session-3/13)"
+    "explanation": "REST imposes no constraint on URL length or memorability. REST requires resources to be identified by URIs that follow a consistent, meaningful structure. Long, descriptive URLs like /api/v1/users/123/orders/456/items are perfectly RESTful.",
+    "hint": "REST's constraints are: client-server, stateless, cacheable, uniform interface, layered system, code on demand. URL aesthetics are not among them."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q16",
+    "id": "2017/2018-MIDTERM EXAM-Q16",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -668,12 +683,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The code defines Django models (classes extending models.Model with fields like CharField, ForeignKey, DateTimeField). In Django's architecture, model definitions always go in models.py, which defines the data layer and generates the database schema via migrations. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "The code defines Django models (classes extending models.Model with fields like CharField, ForeignKey, DateTimeField). In Django's architecture, model definitions always go in models.py, which defines the data layer and generates the database schema via migrations.",
+    "hint": "Look at what the code imports (django.db.models) and what the classes inherit from (models.Model). Which Django file holds data layer definitions?"
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q17",
+    "id": "2017/2018-MIDTERM EXAM-Q17",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -713,12 +729,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The code explicitly defines Donor and Sobre as model classes (class Donor(models.Model), class Sobre(models.Model)). User is implicitly present because it's imported from django.contrib.auth.models and used as a ForeignKey target. Every model class and imported ForeignKey target creates a database table. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "The code explicitly defines Donor and Sobre as model classes (class Donor(models.Model), class Sobre(models.Model)). User is implicitly present because it's imported from django.contrib.auth.models and used as a ForeignKey target. Every model class and imported ForeignKey target creates a database table.",
+    "hint": "Look for explicitly defined model classes AND models used via ForeignKey or imports. A ForeignKey target also becomes a database table."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q18",
+    "id": "2017/2018-MIDTERM EXAM-Q18",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -754,12 +771,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "In Python 2, __unicode__() returns the string representation of a model instance. Django uses this in the admin interface, shell, templates, and anywhere an object needs a human-readable display. In Python 3 / modern Django, __str__() serves the same purpose."
+    "explanation": "In Python 2, __unicode__() returns the string representation of a model instance. Django uses this in the admin interface, shell, templates, and anywhere an object needs a human-readable display. In Python 3 / modern Django, __str__() serves the same purpose.",
+    "hint": "__unicode__ (Python 2) and __str__ (Python 3) serve the same purpose in Django. Think about where you see object names displayed."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q19",
+    "id": "2017/2018-MIDTERM EXAM-Q19",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -795,12 +813,13 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "urls.py contains Django's URL configuration (URLconf) — a mapping between URL patterns and view functions. Each incoming HTTP request is matched against these patterns to determine which view handles it. Patterns are defined using path() or re_path(). [Slides: Django urls](https://projecteweb-2026.github.io/session-3/33)"
+    "explanation": "urls.py contains Django's URL configuration (URLconf) - a mapping between URL patterns and view functions. Each incoming HTTP request is matched against these patterns to determine which view handles it. Patterns are defined using path() or re_path().",
+    "hint": "urls.py is Django's routing layer. It maps incoming HTTP request paths to the functions that handle them."
   },
   {
-    "id": "2017/2018-EXAMEN PARCIAL 1-Q20",
+    "id": "2017/2018-MIDTERM EXAM-Q20",
     "course_year": "2017/2018",
-    "exam_title": "EXAMEN PARCIAL 1",
+    "exam_title": "MIDTERM EXAM",
     "subject": "Web Project",
     "professors": "Roberto Garcia, Carles Mateu",
     "pdf_filename": "parcial-2018-04-en-solved.pdf",
@@ -836,7 +855,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "docker-compose defines multi-container application architectures in a YAML file (docker-compose.yml). It specifies which services (containers) to run, their images, networks, volumes, ports, and dependencies. Running \"docker-compose up\" starts the entire stack. [Slides: docker-compose](https://projecteweb-2026.github.io/session-3/38)"
+    "explanation": "docker-compose defines multi-container application architectures in a YAML file (docker-compose.yml). It specifies which services (containers) to run, their images, networks, volumes, ports, and dependencies. Running \"docker-compose up\" starts the entire stack.",
+    "hint": "docker-compose uses a YAML file (docker-compose.yml) to define how multiple containers, networks, and volumes work together."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q1",
@@ -882,7 +902,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP (HyperText Transfer Protocol) was designed specifically for transferring hypertext documents and related resources across the web. Video streaming uses RTSP/HLS, email uses SMTP/IMAP, and terminal access uses SSH/Telnet. [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+    "explanation": "HTTP (HyperText Transfer Protocol) was designed specifically for transferring hypertext documents and related resources across the web. Video streaming uses RTSP/HLS, email uses SMTP/IMAP, and terminal access uses SSH/Telnet.",
+    "hint": "The name HTTP tells you its purpose. Each letter in the acronym stands for a key word."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q2",
@@ -918,7 +939,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "This is the reverse of the true statement. HTTP/1.x is text-based (headers are plain ASCII), and HTTP/2 is binary (uses binary framing). The question reverses them, so it's false. [Slides: HTTP/2 features](https://projecteweb-2026.github.io/session-2/18)"
+    "explanation": "This is the reverse of the true statement. HTTP/1.x is text-based (headers are plain ASCII), and HTTP/2 is binary (uses binary framing). The question reverses them, so it's false.",
+    "hint": "HTTP/1.x uses plain text you can read with tools like telnet. HTTP/2 introduced binary framing. Which came first?"
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q3",
@@ -954,7 +976,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP uses TCP, not UDP. HTTP/1.x (there's no actual 1.2) was not designed around UDP at all. Only HTTP/3 uses UDP via the QUIC protocol. Additionally, the goal of newer HTTP versions was to reduce latency, not the number of connections per se. [Slides: HTTP/1.0 vs 1.1](https://projecteweb-2026.github.io/session-2/4)"
+    "explanation": "HTTP uses TCP, not UDP. HTTP/1.x (there's no actual 1.2) was not designed around UDP at all. Only HTTP/3 uses UDP via the QUIC protocol. Additionally, the goal of newer HTTP versions was to reduce latency, not the number of connections per se.",
+    "hint": "HTTP uses TCP, not UDP. Only HTTP/3 introduced UDP via the QUIC protocol. Also, 'HTTP/1.2' doesn't actually exist."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q4",
@@ -990,7 +1013,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/2 focuses on performance improvements (binary framing, multiplexing, header compression, server push). It does not add user profiles or preferences storage — that's an application-level concern handled by cookies, sessions, or databases. [Slides: HTTP/2 key features](https://projecteweb-2026.github.io/session-2/19)"
+    "explanation": "HTTP/2 focuses on performance improvements (binary framing, multiplexing, header compression, server push). It does not add user profiles or preferences storage - that's an application-level concern handled by cookies, sessions, or databases.",
+    "hint": "HTTP/2 is purely about performance: multiplexing, binary framing, header compression, server push. User profiles are an application-level concern."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q5",
@@ -1036,7 +1060,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "ETag provides a unique identifier (often a hash) for a specific version of a resource. It's used for cache validation via conditional requests (If-None-Match). It doesn't add cryptographic signatures, doesn't classify data by topics, and definitely exists as a standard HTTP header. [Slides: ETag](https://projecteweb-2026.github.io/session-2/15)"
+    "explanation": "ETag provides a unique identifier (often a hash) for a specific version of a resource. It's used for cache validation via conditional requests (If-None-Match). It doesn't add cryptographic signatures, doesn't classify data by topics, and definitely exists as a standard HTTP header.",
+    "hint": "ETag identifies specific versions of a resource for cache validation. It's not about cryptographic signatures or topic classification."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q6",
@@ -1082,7 +1107,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "In Django's MVT pattern, views.py acts as the Controller from MVC. It contains the business logic: receiving requests, querying models, and returning responses (often rendered through templates). The \"View\" name can be misleading — it's really the controller. [Slides: Django views](https://projecteweb-2026.github.io/session-3/32)"
+    "explanation": "In Django's MVT pattern, views.py acts as the Controller from MVC. It contains the business logic: receiving requests, querying models, and returning responses (often rendered through templates). The \"View\" name can be misleading - it's really the controller.",
+    "hint": "In Django MVT, views.py handles request processing and business logic. Despite the name 'View', it acts like MVC's Controller."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q7",
@@ -1128,7 +1154,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Last-Modified has second-level granularity only. If a resource changes twice within the same second, the Last-Modified timestamp stays the same, causing incorrect cache behavior. ETag addresses this with unique per-version identifiers regardless of timing. [Slides: Last-Modified problem](https://projecteweb-2026.github.io/session-2/14)"
+    "explanation": "Last-Modified has second-level granularity only. If a resource changes twice within the same second, the Last-Modified timestamp stays the same, causing incorrect cache behavior. ETag addresses this with unique per-version identifiers regardless of timing.",
+    "hint": "Last-Modified only has one-second granularity. If two changes happen in the same second, the timestamp cannot distinguish them."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q8",
@@ -1164,7 +1191,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/3 uses QUIC (a transport protocol built on UDP) to eliminate TCP head-of-line blocking and reduce connection setup latency. It has nothing to do with P2P techniques — it's still a standard client-server protocol. [Slides: HTTP/3](https://projecteweb-2026.github.io/session-2/29)"
+    "explanation": "HTTP/3 uses QUIC (a transport protocol built on UDP) to eliminate TCP head-of-line blocking and reduce connection setup latency. It has nothing to do with P2P techniques - it's still a standard client-server protocol.",
+    "hint": "HTTP/3 uses QUIC (on top of UDP) instead of TCP, but remains a client-server protocol. P2P is a completely different networking model."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q9",
@@ -1215,7 +1243,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "All URLs shown are syntactically valid per RFC 3986. HTTP URLs with userinfo and non-standard ports, mailto URIs with multiple recipients and query parameters, and HTTPS URLs with query strings and fragments are all valid URI formats."
+    "explanation": "All URLs shown are syntactically valid per RFC 3986. HTTP URLs with userinfo and non-standard ports, mailto URIs with multiple recipients and query parameters, and HTTPS URLs with query strings and fragments are all valid URI formats.",
+    "hint": "Check each URL against RFC 3986 syntax rules. URLs can include userinfo (user:pass@), non-standard ports, percent-encoded characters, and fragments."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q10",
@@ -1251,7 +1280,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/2 does not require Let's Encrypt specifically or any particular certificate authority. The HTTP/2 spec doesn't even require TLS at all (h2c exists), though browsers only implement h2 over TLS. Any valid certificate from any CA works. [Slides: HTTP/2 negotiation](https://projecteweb-2026.github.io/session-2/26)"
+    "explanation": "HTTP/2 does not require Let's Encrypt specifically or any particular certificate authority. The HTTP/2 spec doesn't even require TLS at all (h2c exists), though browsers only implement h2 over TLS. Any valid certificate from any CA works.",
+    "hint": "The HTTP/2 spec (RFC 7540) does not require any specific certificate authority. Think about what the spec mandates vs. what browsers choose to do."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q11",
@@ -1287,7 +1317,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "REST is an architectural style, not a tool for adding state or persistence. In fact, statelessness is one of REST's core constraints — the server must not store client state between requests. Each request must contain all needed information. [Slides: Stateless constraint](https://projecteweb-2026.github.io/session-3/8)"
+    "explanation": "REST is an architectural style, not a tool for adding state or persistence. In fact, statelessness is one of REST's core constraints - the server must not store client state between requests. Each request must contain all needed information.",
+    "hint": "REST is an architectural style with constraints. One of its core constraints is statelessness, meaning the server does not store client session state."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q12",
@@ -1333,7 +1364,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "REST representations are messages exchanged between client and server containing resource data and metadata. They're not limited to SQL/NoSQL or text/video — representations can be in any format (JSON, XML, HTML, images, etc.) negotiated via content negotiation headers. [Slides: REST representations](https://projecteweb-2026.github.io/session-3/9)"
+    "explanation": "REST representations are messages exchanged between client and server containing resource data and metadata. They're not limited to SQL/NoSQL or text/video - representations can be in any format (JSON, XML, HTML, images, etc.) negotiated via content negotiation headers.",
+    "hint": "A REST representation is the message (body + metadata) exchanged between client and server. Think about what format it takes: JSON, XML, HTML, etc."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q13",
@@ -1379,7 +1411,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "12-Factor App (Factor III: Config) mandates storing configuration in environment variables. This separates config from code, making the same codebase deployable across environments. It doesn't require specific languages, REST, or isolated Git repos per environment. [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+    "explanation": "12-Factor App (Factor III: Config) mandates storing configuration in environment variables. This separates config from code, making the same codebase deployable across environments. It doesn't require specific languages, REST, or isolated Git repos per environment.",
+    "hint": "12-Factor Factor III: Config that varies between deploys (credentials, resource URLs) should be stored in environment variables, not in code."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q14",
@@ -1425,7 +1458,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Django uses MVT (Model-View-Template), analogous to MVC. Model=Model (data), View=Controller (logic), Template=View (presentation). The key insight is that Django's \"View\" is MVC's \"Controller\". [Slides: Django MVT](https://projecteweb-2026.github.io/session-3/31)"
+    "explanation": "Django uses MVT (Model-View-Template), analogous to MVC. Model=Model (data), View=Controller (logic), Template=View (presentation). The key insight is that Django's \"View\" is MVC's \"Controller\".",
+    "hint": "Django's pattern: Model (data), View (logic/controller), Template (presentation). The acronym is MVT."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q15",
@@ -1461,7 +1495,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "REST has no requirement about URL length or memorability. REST requires that resources be identified by URIs and that the API follows a uniform interface. URLs should be meaningful and hierarchical, but can be as long as needed. [Slides: REST API design](https://projecteweb-2026.github.io/session-3/13)"
+    "explanation": "REST has no requirement about URL length or memorability. REST requires that resources be identified by URIs and that the API follows a uniform interface. URLs should be meaningful and hierarchical, but can be as long as needed.",
+    "hint": "REST requires resources be identified by URIs and that the API follow a uniform interface. It says nothing about URL length or memorability."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q16",
@@ -1507,7 +1542,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The code defines Django model classes (inheriting from models.Model) with database fields. This is the data layer code that always belongs in models.py, which Django uses to generate database tables through migrations. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "The code defines Django model classes (inheriting from models.Model) with database fields. This is the data layer code that always belongs in models.py, which Django uses to generate database tables through migrations.",
+    "hint": "Classes inheriting from models.Model with database fields (CharField, ForeignKey, etc.) always go in Django's models.py file."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q17",
@@ -1552,7 +1588,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Donor and Envelope are explicitly defined as model classes. User is implicitly present — imported from django.contrib.auth.models and referenced as a ForeignKey in Envelope. All three will have corresponding database tables. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "Donor and Envelope are explicitly defined as model classes. User is implicitly present - imported from django.contrib.auth.models and referenced as a ForeignKey in Envelope. All three will have corresponding database tables.",
+    "hint": "Count explicit model classes (those inheriting models.Model) AND models referenced via ForeignKey or imported from other modules."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q18",
@@ -1593,7 +1630,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "__str__() returns a human-readable string representation of a model instance. Django displays this in the admin interface, the shell, form widgets, and anywhere an object needs to be shown as text. It does not handle encoding or key generation."
+    "explanation": "__str__() returns a human-readable string representation of a model instance. Django displays this in the admin interface, the shell, form widgets, and anywhere an object needs to be shown as text. It does not handle encoding or key generation.",
+    "hint": "__str__ returns the human-readable text representation used in Django's admin, shell, and template rendering."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q19",
@@ -1634,7 +1672,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "urls.py defines the URL routing configuration — a list of URL patterns mapped to view functions. When a request arrives, Django matches the URL against these patterns and calls the corresponding view. It doesn't list servers or user profiles. [Slides: Django urls](https://projecteweb-2026.github.io/session-3/33)"
+    "explanation": "urls.py defines the URL routing configuration - a list of URL patterns mapped to view functions. When a request arrives, Django matches the URL against these patterns and calls the corresponding view. It doesn't list servers or user profiles.",
+    "hint": "urls.py defines URL routing: a list of patterns mapped to view functions via path() or re_path()."
   },
   {
     "id": "2018/2019-MIDTERM EXAM-Q20",
@@ -1675,7 +1714,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "docker-compose defines multi-container architectures in a YAML file, specifying services, networks, volumes, and their relationships. It doesn't download VMs (that's Vagrant) or deploy to Heroku (that's git push or Heroku CLI). [Slides: docker-compose](https://projecteweb-2026.github.io/session-3/38)"
+    "explanation": "docker-compose defines multi-container architectures in a YAML file, specifying services, networks, volumes, and their relationships. It doesn't download VMs (that's Vagrant) or deploy to Heroku (that's git push or Heroku CLI).",
+    "hint": "docker-compose.yml defines multi-container applications: which services to run, their images, networks, volumes, and port mappings."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q1",
@@ -1721,7 +1761,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP is a protocol (not a language or OS) designed for communication on the web. It defines how clients (browsers) and servers exchange hypertext documents and other resources using request-response pairs over TCP (or QUIC in HTTP/3). [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+    "explanation": "HTTP is a protocol (not a language or OS) designed for communication on the web. It defines how clients (browsers) and servers exchange hypertext documents and other resources using request-response pairs over TCP (or QUIC in HTTP/3).",
+    "hint": "HTTP is an application-layer protocol, not a language or an operating system. It defines how clients and servers exchange resources."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q1-acronym",
@@ -1746,7 +1787,8 @@
     "correct_option_labels": [],
     "context": null,
     "answer_map": null,
-    "explanation": "HTTP stands for HyperText Transfer Protocol. \"HyperText\" refers to documents with links to other documents, \"Transfer\" indicates data movement, and \"Protocol\" means a set of rules for communication. [Slides: HTTP overview](https://projecteweb-2026.github.io/session-2/3)"
+    "explanation": "HTTP stands for HyperText Transfer Protocol. \"HyperText\" refers to documents with links to other documents, \"Transfer\" indicates data movement, and \"Protocol\" means a set of rules for communication.",
+    "hint": "Four words: H = Hyper, T = Text, T = Transfer, P = Protocol."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q2",
@@ -1792,7 +1834,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/2's primary goal was reducing latency through multiplexing (many requests over one connection), binary framing, header compression (HPACK), and server push. Security and data format support were not its focus. [Slides: HTTP/2](https://projecteweb-2026.github.io/session-2/18)"
+    "explanation": "HTTP/2's primary goal was reducing latency through multiplexing (many requests over one connection), binary framing, header compression (HPACK), and server push. Security and data format support were not its focus.",
+    "hint": "HTTP/2 was designed to fix HTTP/1.1's performance problems. Its features (multiplexing, binary framing, HPACK) all target one main goal."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q3",
@@ -1838,7 +1881,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/2 improves on HTTP/1.1 in all three ways: binary framing (more efficient parsing), multiplexing (concurrent requests on one connection), and HPACK header compression (reduced overhead). All these together significantly reduce latency. [Slides: HTTP/2 key features](https://projecteweb-2026.github.io/session-2/19)"
+    "explanation": "HTTP/2 improves on HTTP/1.1 in all three ways: binary framing (more efficient parsing), multiplexing (concurrent requests on one connection), and HPACK header compression (reduced overhead). All these together significantly reduce latency.",
+    "hint": "HTTP/2 introduced three major improvements over HTTP/1.1. Consider whether binary framing, multiplexing, and header compression are all valid improvements."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q4",
@@ -1884,7 +1928,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Server push in HTTP/2 allows the server to proactively send resources (CSS, JS, images) to the client before the client requests them. When serving an HTML page, the server can predict what the client will need next and push those resources preemptively. [Slides: Server push](https://projecteweb-2026.github.io/session-2/24)"
+    "explanation": "Server push in HTTP/2 allows the server to proactively send resources (CSS, JS, images) to the client before the client requests them. When serving an HTML page, the server can predict what the client will need next and push those resources preemptively.",
+    "hint": "Think about who initiates the push. In server push, the server sends resources proactively before the client requests them."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q5",
@@ -1930,7 +1975,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "ETag enables cache validation by letting the server compare resource versions. The client sends If-None-Match with the stored ETag; if it matches, the server responds 304 Not Modified. ETag is not about max-age (that's Cache-Control), timestamps (that's Last-Modified), or access control. [Slides: ETag](https://projecteweb-2026.github.io/session-2/15)"
+    "explanation": "ETag enables cache validation by letting the server compare resource versions. The client sends If-None-Match with the stored ETag; if it matches, the server responds 304 Not Modified. ETag is not about max-age (that's Cache-Control), timestamps (that's Last-Modified), or access control.",
+    "hint": "ETag enables conditional requests using If-None-Match. It's about comparing resource versions, not setting expiry times or controlling access."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q6",
@@ -1976,7 +2022,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "A Django view is a function (or class) that receives an HTTP request and returns an HTTP response. In MVT terms, the View is the Controller — it contains the business logic. It's not a template (that's the Template), not middleware, and not a migration tool. [Slides: Django views](https://projecteweb-2026.github.io/session-3/32)"
+    "explanation": "A Django view is a function (or class) that receives an HTTP request and returns an HTTP response. In MVT terms, the View is the Controller - it contains the business logic. It's not a template (that's the Template), not middleware, and not a migration tool.",
+    "hint": "A Django view takes an HttpRequest as input and returns an HttpResponse. It acts as the Controller in MVC terms."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q7",
@@ -2022,7 +2069,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HTTP/3 uses QUIC, a transport protocol built on UDP instead of TCP. QUIC eliminates TCP head-of-line blocking, provides 0-RTT connection resumption, and includes built-in encryption. Binary format and header compression were already in HTTP/2. [Slides: HTTP/3](https://projecteweb-2026.github.io/session-2/29)"
+    "explanation": "HTTP/3 uses QUIC, a transport protocol built on UDP instead of TCP. QUIC eliminates TCP head-of-line blocking, provides 0-RTT connection resumption, and includes built-in encryption. Binary format and header compression were already in HTTP/2.",
+    "hint": "HTTP/3's key innovation is at the transport layer. It replaced TCP with a new protocol that eliminates head-of-line blocking."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q8",
@@ -2068,7 +2116,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Last-Modified uses second-level precision (HTTP-date format). If a resource changes twice within one second, both modifications share the same timestamp, leading to stale cache entries. ETag solves this with unique per-version identifiers. [Slides: Last-Modified problem](https://projecteweb-2026.github.io/session-2/14)"
+    "explanation": "Last-Modified uses second-level precision (HTTP-date format). If a resource changes twice within one second, both modifications share the same timestamp, leading to stale cache entries. ETag solves this with unique per-version identifiers.",
+    "hint": "HTTP date format (RFC 7231) only supports second-level precision. Think about what this means when a resource changes faster than once per second."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q9",
@@ -2095,7 +2144,8 @@
     },
     "subquestion": null,
     "accepted_answers": null,
-    "explanation": "HTTP status codes are three-digit numbers grouped by first digit: 1xx = Informational (request received), 2xx = Success (request fulfilled), 3xx = Redirection (further action needed), 4xx = Client Error (bad request), 5xx = Server Error (server failed). [Slides: HTTP recap](https://projecteweb-2026.github.io/session-2/3)"
+    "explanation": "HTTP status codes are three-digit numbers grouped by first digit: 1xx = Informational (request received), 2xx = Success (request fulfilled), 3xx = Redirection (further action needed), 4xx = Client Error (bad request), 5xx = Server Error (server failed).",
+    "hint": "Think of common examples: 200 OK, 301 Moved, 404 Not Found, 500 Internal Server Error. What digit does each start with?"
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q10",
@@ -2141,7 +2191,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The Stateless constraint means the server stores no client state between requests. Each request must be self-contained with all authentication, context, and data needed. This enables scalability since any server can handle any request. [Slides: Stateless constraint](https://projecteweb-2026.github.io/session-3/8)"
+    "explanation": "The Stateless constraint means the server stores no client state between requests. Each request must be self-contained with all authentication, context, and data needed. This enables scalability since any server can handle any request.",
+    "hint": "REST has 6 constraints: client-server, stateless, cacheable, uniform interface, layered system, code on demand. Which addresses session state?"
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q11",
@@ -2187,7 +2238,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "A REST representation is a message (like a JSON or XML document) exchanged between client and server containing resource data plus metadata (content type, links, etc.). It's not the storage format, not just hyperlinks, and not the serialization process itself. [Slides: REST representations](https://projecteweb-2026.github.io/session-3/9)"
+    "explanation": "A REST representation is a message (like a JSON or XML document) exchanged between client and server containing resource data plus metadata (content type, links, etc.). It's not the storage format, not just hyperlinks, and not the serialization process itself.",
+    "hint": "A representation is the actual message sent between client and server. It contains resource data plus metadata like content type."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q12",
@@ -2233,7 +2285,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "RESTful APIs use standard HTTP methods: GET (read), POST (create), PUT (update/replace), DELETE (remove). Methods like UPDATE, REMOVE, FETCH, and SEND are not real HTTP methods defined in the HTTP specification. [Slides: HTTP methods in REST](https://projecteweb-2026.github.io/session-3/10)"
+    "explanation": "RESTful APIs use standard HTTP methods: GET (read), POST (create), PUT (update/replace), DELETE (remove). Methods like UPDATE, REMOVE, FETCH, and SEND are not real HTTP methods defined in the HTTP specification.",
+    "hint": "RESTful APIs use standard HTTP methods. Check which of the listed methods actually exist in the HTTP specification (RFC 7231)."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q13",
@@ -2279,7 +2332,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The 12-Factor App methodology aims to make applications easy to deploy, scale, and maintain across environments. It's not specifically about security, performance optimization, or reducing dependencies — it's about operational best practices. [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+    "explanation": "The 12-Factor App methodology aims to make applications easy to deploy, scale, and maintain across environments. It's not specifically about security, performance optimization, or reducing dependencies - it's about operational best practices.",
+    "hint": "12-Factor is a methodology for building software-as-a-service apps. It focuses on operational concerns, not security or raw performance."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q14",
@@ -2325,7 +2379,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Django uses MVT (Model-View-Template), analogous to MVC. Model handles data, View handles logic (MVC's Controller), Template handles presentation (MVC's View). [Slides: Django MVT](https://projecteweb-2026.github.io/session-3/31)"
+    "explanation": "Django uses MVT (Model-View-Template), analogous to MVC. Model handles data, View handles logic (MVC's Controller), Template handles presentation (MVC's View).",
+    "hint": "Django's pattern: Model (data), View (logic/controller), Template (presentation). The acronym is MVT."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q15",
@@ -2371,7 +2426,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "HATEOAS (Hypermedia As The Engine Of Application State) uses hyperlinks in responses to guide clients through available actions and related resources. Links tell clients what they can do next, making the API self-descriptive and discoverable. [Slides: HATEOAS](https://projecteweb-2026.github.io/session-3/11)"
+    "explanation": "HATEOAS (Hypermedia As The Engine Of Application State) uses hyperlinks in responses to guide clients through available actions and related resources. Links tell clients what they can do next, making the API self-descriptive and discoverable.",
+    "hint": "HATEOAS stands for Hypermedia As The Engine Of Application State. The key word is 'Hypermedia', which means linked content."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q16",
@@ -2417,7 +2473,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The code defines Django models (classes extending models.Model with fields like CharField, DecimalField, ForeignKey, ManyToManyField). Model definitions belong in models.py — Django's data layer that generates the database schema. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "The code defines Django models (classes extending models.Model with fields like CharField, DecimalField, ForeignKey, ManyToManyField). Model definitions belong in models.py - Django's data layer that generates the database schema.",
+    "hint": "Look for the telltale signs: classes inheriting from models.Model, field definitions like CharField, ForeignKey, ManyToManyField."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q17",
@@ -2438,7 +2495,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Explicit models: Lesson, Topic, Inscription, InscriptionItem. Implicit models: User (imported from django.contrib.auth), Author (referenced in ManyToManyField but defined elsewhere). Additionally, ManyToManyField creates intermediate junction tables automatically. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "Explicit models: Lesson, Topic, Inscription, InscriptionItem. Implicit models: User (imported from django.contrib.auth), Author (referenced in ManyToManyField but defined elsewhere). Additionally, ManyToManyField creates intermediate junction tables automatically.",
+    "hint": "Count all explicit model classes in the code AND any models referenced via ForeignKey, ManyToManyField, or imports from other modules."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q18",
@@ -2459,7 +2517,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs: class Author(models.Model): name = models.CharField(max_length=200). This provides the required model with one CharField. [Slides: Django models](https://projecteweb-2026.github.io/session-3/34)"
+    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs: class Author(models.Model): name = models.CharField(max_length=200). This provides the required model with one CharField.",
+    "hint": "Look for model names used in field definitions (like ManyToManyField) that are not defined anywhere in the visible code."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q19",
@@ -2505,7 +2564,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "A Django URL pattern maps URLs to views using path() or re_path() (which accepts regex). When a request arrives, Django iterates through urlpatterns and calls the view of the first match. It's not a migration tool, middleware, or template. [Slides: Django urls](https://projecteweb-2026.github.io/session-3/33)"
+    "explanation": "A Django URL pattern maps URLs to views using path() or re_path() (which accepts regex). When a request arrives, Django iterates through urlpatterns and calls the view of the first match. It's not a migration tool, middleware, or template.",
+    "hint": "URL patterns live in urls.py and map incoming URLs to view functions using path() or re_path(). They're the routing layer."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q20",
@@ -2551,7 +2611,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "In HATEOAS, hyperlinks in responses provide navigation paths to related resources. They tell the client what actions are available and where related data lives, enabling clients to discover the API dynamically without hardcoding URLs. [Slides: HATEOAS](https://projecteweb-2026.github.io/session-3/11)"
+    "explanation": "In HATEOAS, hyperlinks in responses provide navigation paths to related resources. They tell the client what actions are available and where related data lives, enabling clients to discover the API dynamically without hardcoding URLs.",
+    "hint": "In HATEOAS, response hyperlinks let clients navigate to related resources and discover available actions without hardcoding URLs."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q21",
@@ -2597,7 +2658,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "12-Factor App (Factor III) says config should be in environment variables. Docker supports this via -e flags or docker-compose environment sections. Rebuilding images or modifying them directly for config changes violates the separation of config from code. [Slides: 12-Factor & Docker](https://projecteweb-2026.github.io/session-3/39)"
+    "explanation": "12-Factor App (Factor III) says config should be in environment variables. Docker supports this via -e flags or docker-compose environment sections. Rebuilding images or modifying them directly for config changes violates the separation of config from code.",
+    "hint": "12-Factor says config should be in environment variables, not baked into images or Dockerfiles. Docker supports this via -e flags."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q22",
@@ -2643,7 +2705,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "docker-compose is the standard tool for defining and running multi-container Docker applications. It uses a YAML file to configure services, networks, and volumes, and can start everything with one command. Individual docker run commands don't orchestrate dependencies. [Slides: docker-compose](https://projecteweb-2026.github.io/session-3/38)"
+    "explanation": "docker-compose is the standard tool for defining and running multi-container Docker applications. It uses a YAML file to configure services, networks, and volumes, and can start everything with one command. Individual docker run commands don't orchestrate dependencies.",
+    "hint": "docker-compose defines multi-container setups in a YAML file. One command (docker-compose up) orchestrates all services together."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q23",
@@ -2689,7 +2752,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Docker containers share the host's OS kernel, using Linux namespaces and cgroups for isolation. Unlike VMs, they don't need a separate OS, making them lightweight. They don't run on bare metal directly (they need the Docker engine) and aren't heavyweight VMs. [Slides: Containers vs VMs](https://projecteweb-2026.github.io/session-3/37)"
+    "explanation": "Docker containers share the host's OS kernel, using Linux namespaces and cgroups for isolation. Unlike VMs, they don't need a separate OS, making them lightweight. They don't run on bare metal directly (they need the Docker engine) and aren't heavyweight VMs.",
+    "hint": "Containers use OS-level virtualization via namespaces and cgroups. Unlike VMs, they don't run a full separate operating system."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q24",
@@ -2735,7 +2799,8 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Django migrations are a version control system for database schemas. When you change models, \"makemigrations\" generates migration files, and \"migrate\" applies them. They're not middleware, templates, or the admin interface. [Slides: Django migrations](https://projecteweb-2026.github.io/session-3/35)"
+    "explanation": "Django migrations are a version control system for database schemas. When you change models, \"makemigrations\" generates migration files, and \"migrate\" applies them. They're not middleware, templates, or the admin interface.",
+    "hint": "Migrations track model changes and apply them to the database schema. The commands are makemigrations (generate) and migrate (apply)."
   },
   {
     "id": "2022/2023-MIDTERM EXAM-Q25",
@@ -2781,6 +2846,7 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Factor I (Codebase) of 12-Factor says one codebase tracked in version control, many deploys. Factor III (Config) says store config in environment variables. \"Store configuration with code\" aligns with keeping a single codebase. Note: this is about code+config co-location in the repo, not environment-specific values. [Slides: 12-Factor](https://projecteweb-2026.github.io/session-3/39)"
+    "explanation": "Factor I (Codebase) of 12-Factor says one codebase tracked in version control, many deploys. Factor III (Config) says store config in environment variables. \"Store configuration with code\" aligns with keeping a single codebase. Note: this is about code+config co-location in the repo, not environment-specific values.",
+    "hint": "Factor I: One codebase in version control, many deploys. Factor III: Store config in environment variables. These are the most cited principles."
   }
 ]
