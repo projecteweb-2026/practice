@@ -2510,14 +2510,14 @@
     "question_text": "Write a short (1 CharField) implementation of a missing model that's required from the above code.",
     "options": [],
     "type": "open",
-    "answer_text": "class Author(models.Model):\nname = models.CharField(max_length=200)",
+    "answer_text": "class Author(models.Model):\n    name = models.CharField(max_length=200)",
     "correct_option_indices": [],
     "correct_option_labels": [],
     "context": "from django.db import models\nfrom django.contrib.auth.models import User\nclass Lesson(models.Model):\n    short_desc = models.CharField(max_length=200)\n    ects = models.DecimalField(max_digits=5, decimal_places=2)\n    authors = models.ManyToManyField(Author)\nclass Topic(models.Model):\n    short_desc = models.CharField(max_length=100)\n    lessons = models.ManyToManyField(Lesson, on_delete=models.CASCADE)\nclass Inscription(models.Model):\n    user = models.ForeignKey(User, on_delete=models.PROTECT)\n    paid = models.DateTimeField(auto_now=False, null=True)\nclass InscriptionItem(models.Model):\n    inscription = models.ForeignKey(Inscription, on_delete=models.PROTECT)\n    lesson = models.ForeignKey(Lesson, on_delete=models.PROTECT)",
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs: class Author(models.Model): name = models.CharField(max_length=200). This provides the required model with one CharField.",
+    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs:\n\nclass Author(models.Model):\n    name = models.CharField(max_length=200)\n\nThis provides the required model with one CharField.",
     "hint": "Look for model names used in field definitions (like ManyToManyField) that are not defined anywhere in the visible code."
   },
   {
