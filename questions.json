@@ -2517,7 +2517,7 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs:\n\nclass Author(models.Model):\n    name = models.CharField(max_length=200)\n\nThis provides the required model with one CharField.",
+    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs:\n\nclass Author(models.Model):\n    name = models.CharField(max_length=200)\n\nThis provides the required model with one CharField. Note that max_length is mandatory for CharField in Django.",
     "hint": "Look for model names used in field definitions (like ManyToManyField) that are not defined anywhere in the visible code."
   },
   {
