@@ -2846,7 +2846,7 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "12-Factor distinguishes between two types of configuration: application configuration (framework settings, routes, dependencies) belongs in the codebase alongside code (Factor I: one codebase, many deploys). Environment configuration (credentials, database URLs, API keys - anything that varies between deploys) must be stored in environment variables, never in code (Factor III: Config). \"Store application configuration with code\" refers to the first type - the app's own structural config lives in the repo. The other options are not 12-Factor principles: microservices, specific languages, and resource maximization are unrelated.",
-    "hint": "12-Factor separates application config (lives with code in the repo, Factor I) from environment config like credentials and URLs (stored in environment variables, Factor III). Which option describes application-level config?"
+    "explanation": "There are two kinds of config. Application config (routes, framework settings, dependencies) is the same in every deploy, so it belongs in the code repository. Environment config (passwords, database URLs, API keys) changes between deploys (dev, staging, production), so it goes in environment variables. 12-Factor Factor III explicitly says: internal application config 'does not vary between deploys, and so is best done in the code'. The other options (microservices, specific languages, resource maximization) are not 12-Factor principles.",
+    "hint": "12-Factor says there are two kinds of config. Environment config (passwords, URLs) goes in env vars. But application config (routes, settings) stays with the code. Which option talks about application config?"
   }
 ]
