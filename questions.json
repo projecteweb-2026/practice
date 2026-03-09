@@ -2517,7 +2517,7 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs:\n\nclass Author(models.Model):\n    name = models.CharField(max_length=200)\n\nThis provides the required model with one CharField. The max_length parameter is mandatory for CharField because Django needs it to define the VARCHAR column size in the database — without it, Django raises a validation error.",
+    "explanation": "The Lesson model references Author via ManyToManyField(Author), but Author is not defined in the shown code. A minimal implementation needs:\n\nclass Author(models.Model):\n    name = models.CharField(max_length=200)\n\nThis provides the required model with one CharField. The max_length parameter is mandatory for CharField because Django needs it to define the VARCHAR column size in the database - without it, Django raises a validation error.",
     "hint": "Look for model names used in field definitions (like ManyToManyField) that are not defined anywhere in the visible code."
   },
   {
@@ -2846,7 +2846,7 @@
     "subquestion": null,
     "accepted_answers": null,
     "answer_map": null,
-    "explanation": "Factor I (Codebase) of 12-Factor says one codebase tracked in version control, many deploys. Factor III (Config) says store config in environment variables. \"Store configuration with code\" aligns with keeping a single codebase. Note: this is about code+config co-location in the repo, not environment-specific values.",
-    "hint": "Factor I: One codebase in version control, many deploys. Factor III: Store config in environment variables. These are the most cited principles."
+    "explanation": "12-Factor distinguishes between two types of configuration: application configuration (framework settings, routes, dependencies) belongs in the codebase alongside code (Factor I: one codebase, many deploys). Environment configuration (credentials, database URLs, API keys - anything that varies between deploys) must be stored in environment variables, never in code (Factor III: Config). \"Store application configuration with code\" refers to the first type - the app's own structural config lives in the repo. The other options are not 12-Factor principles: microservices, specific languages, and resource maximization are unrelated.",
+    "hint": "12-Factor separates application config (lives with code in the repo, Factor I) from environment config like credentials and URLs (stored in environment variables, Factor III). Which option describes application-level config?"
   }
 ]
